@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-image: url('earth.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    /* filter: blur(90%); */
+    z-index: -1;
+        
+}
+nav{
+    background-color: rgba(11, 10, 10, 0.432);
+    display: flex;
+    justify-content:space-evenly ;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 600;
+
+    
+}
+/* nav :first-child{
+    margin-right: auto;
+    
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+
+
+}
+nav ul li a{
+    
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li{
+
+    padding: 13.52px 30px ;
+    align-items: center;
+    text-wrap: nowrap;
+}
+nav .logo{
+  display: flex;
+  align-items: center;
+  color: rgb(248, 244, 8);
+  font-size: 30px;
+  
+}
+nav .logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav ul li:hover{
+    background-color: rgba(192, 188, 188, 0.509);
+}
+.head{
+    display: flex;
+    font-weight: 600;
+    font-size: 60px;
+    color: whitesmoke;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: poppins;
+    filter: drop-shadow(1px 0px 3px rgb(0, 0, 0));
+}
+
+.measures{
+    padding-top: 40px;
+    display: flex;
+    color: rgb(253, 238, 72);
+    justify-content: center;
+    font-weight: 800;
+    font-size: 23px;
+    filter: drop-shadow(1px 0px 3px rgb(0, 0, 0));
+    
+}
+
+/* .safety{
+    
+    
+
+} */
+/* .safety li{
+    padding-top: 15px;
+    
+    border-radius: 5px;
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+  
+    background-image: url('earthquake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(255, 255, 2550.5);
+    backdrop-filter:blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+}
+.form-box .input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.form-box .input-box input{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: white;
+    font-size: 16px;
+}
+input::placeholder{
+    color: white;
+
+}
+.btn{
+    color: #fff;
+    background: blue;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.5);
+
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.group span a{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.group a:focus{
+    text-decoration: underline;
+}
+i{
+    position:absolute;
+    color: #fff;
+    top: 13px;
+    right: 0;
+    font-size: 25px;
+}
